@@ -37,6 +37,7 @@ nav li{
 
 h1,h2,h3,h4,h5,h6 {
     color: #99e07f
+    
 }
 
 main {
@@ -59,6 +60,7 @@ class selector == .<classname> */
 .image-fit {
     width: 100%;
     height: auto;
+    border-radius: 90%
     
 }
 
@@ -81,4 +83,8 @@ class selector == .<classname> */
     border-radius:45%;
     margin-bottom: 10px;
     border-color: purple;
+}
+
+div {
+    text-align: center;
 }
