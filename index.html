@@ -1,0 +1,76 @@
+
+
+<!-- Path: main.css -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Welborn Portfolio</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h3> Michael's Website</h3>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Contact Me</a></li>
+                <li><a href="https://github.com/SoftwareSorcerer72">My Github</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="main-articles">
+            <article>
+                <h2> Who am I?</h2>
+                <img class="image-fit" src="./images/video_gaming_photo.jpg" alt="A man playing PC video games">
+                <p>Im Mike, a software dev, ethical hacker, an video game enthusiast</p>
+            </article>
+            <article>
+                <h2>My happy place (or close to it) </h2>
+                <img class="image-fit" src="./images/assateague_beach_berlin_maryland.jpg" alt="Horses walking on Assateague Beach in Berlin Maryland">
+                <p>Wild horses and beautiful beaches</p>
+            </article>
+        </div>
+        <div id="side-bar">
+            <article>
+                <img id="prof-pic" src="./images/my_selfie.jpg" alt="Mike Welborn's Photo">
+                <h2>Michael Welborn</h2>
+                I'm a software dev with a passion for coding, ethical hacking, video gaming, repurposing old tech, 
+                    and making the world a more positive and fun place to live. <br />
+            </article>
+            <article>
+                <h2>Contact Me!</h2>
+                <form action="mailto:mikewelborn72@gmail.com" method="post">
+                    <div>
+                        <label for="name_field">Your full name</label>
+                    </div>
+                    <input id="name_field" name="name_field" type="text" placeholder="Name">
+                    <div>
+                        <label for="email-field">Your Email</label>
+                    </div>
+                    <input id="email-field" name="email-field" type="text" placeholder="someone@email.com">
+                    <div>
+                        <label for="message-field"></label>
+                    </div>
+                    <textarea id="message-field" name="message-field" rows="5"
+                        placeholder="Write your ideas here"></textarea>
+                    <div>
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+                <label for="skills">skills</label>
+                <progress id="skills" max="100" value="25">
+            </article>
+        </div>
+    </main>
+    <footer>
+        &copy;2024 Coding Temple, Inc.
+    </footer>
+</body>
+
+</html>

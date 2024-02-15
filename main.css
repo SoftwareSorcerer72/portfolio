@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* element selector */
+body {
+background-color: #170218;
+color: whitesmoke;
+}
+
+nav {
+    background-color: rgb(7, 22, 44);
+    padding: 10px;
+    display: flex;
+}
+
+nav a{
+    color: rgb(177, 12, 210);
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-top: .1%;
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+}
+
+
+/* messing with main  */
+
+h1,h2,h3,h4,h5,h6 {
+    color: #99e07f
+}
+
+main {
+    display:flex;
+}
+
+/* id selector == # */
+
+#main-articles {
+    width: 70%;
+    background-color: #09323f;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+/* 
+class selector == .<classname> */
+
+.image-fit {
+    width: 100%;
+    height: auto;
+    
+}
+
+#side-bar {
+    width: 30%;
+    border: 1px solid black;
+    background-color: linear-gradient(rgb(0,0,0,.5),rgba(0, 0, 0, 0.5), url('./images/assateague_beach_berlin_maryland.jpg'));
+    background-repeat: no-repeat;
+    background-color: center;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    border-color:#99e07f
+}
+
+
+#prof-pic{
+    width: 75%;
+    border: 3px solid whitesmoke;
+    border-radius:50%;
+    margin-bottom: 10px;
+    border-color: purple;
+}
