@@ -5,7 +5,7 @@
 
 /* element selector */
 body {
-background-color: #170218;
+background-color: #000000;
 color: whitesmoke;
 }
 
@@ -17,7 +17,7 @@ nav {
 }
 
 nav a{
-    color: rgb(177, 12, 210);
+    color: rgb(211, 119, 230);
     text-decoration: none;
 }
 
@@ -54,7 +54,8 @@ main {
 
 #main-articles {
     width: 70%;
-    background-color: #09323f;
+    /*background-color: #09323f;*/
+    background: linear-gradient(to right, rgb(7, 22, 44), rgb(47, 173, 66), rgb(44, 7, 42));
     border: 0.5px solid rgb(90, 35, 73);
     border-radius: 20px;
     margin: 10px;
@@ -73,7 +74,7 @@ class selector == .<classname> */
 #side-bar {
     width: 25%;
     border: 1px solid rgb(0, 0, 0);
-    background-color: linear-gradient(rgb(0,0,0,.5),rgba(0, 0, 0, 0.5));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5),rgba(139, 9, 137, 0.5), rgba(0, 0, 0, 0.5));
     background-color: rgb(17, 1, 17);
     margin: 10px;
     border-radius: 50px;
@@ -109,9 +110,10 @@ form::before {
     right: 0px;
     bottom: -20px;
     left: 0px;
-    background: linear-gradient(rgba(54, 6, 53, 0.5), rgba(47, 173, 66, 0.5));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5),rgba(139, 9, 137, 0.5), rgba(0, 0, 0, 0.5));
     z-index: -1;
     border-radius: inherit;
+    border: 5px solid black
 }
 
 #poem {
@@ -128,4 +130,11 @@ form::before {
     
     
 }
+
+#meme {
+    width: 40%; /* adjust this value as needed */
+    height: 15%;
+    
+}
+
 
