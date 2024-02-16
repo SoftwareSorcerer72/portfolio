@@ -134,6 +134,7 @@ form::before {
 #meme {
     width: 40%; /* adjust this value as needed */
     height: 15%;
+    align: center;
     
 }
 
