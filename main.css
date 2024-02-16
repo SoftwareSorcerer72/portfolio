@@ -148,14 +148,4 @@ form::before {
     
 }
 
-/* 1st attempt to get the whole thing to look better on mobile */
-@media screen and (max-width: 600px) {
-    body {
-        font-size: 18px;
-    }
 
-    #poem, .meme {
-        width: 90%;
-        margin: 10px auto;
-    }
-}
