@@ -7,6 +7,7 @@
 body {
 background-color: #000000;
 color: whitesmoke;
+font-size: 1em
 }
 
 nav {
@@ -42,7 +43,8 @@ nav ul li a:hover {
 /* messing with main  */
 
 h1,h2,h3,h4,h5,h6 {
-    color: #99e07f
+    color: #99e07f;
+    font-size: 2em;
     
 }
 
