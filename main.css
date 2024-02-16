@@ -82,7 +82,7 @@ class selector == .<classname> */
     border: 3px solid whitesmoke;
     border-radius:45%;
     margin-bottom: 10px;
-    border-color: purple;
+    border-color: rgb(65, 8, 65);
 }
 
 div {
