@@ -117,7 +117,7 @@ form::before {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5),rgba(139, 9, 137, 0.5), rgba(0, 0, 0, 0.5));
     z-index: -1;
     border-radius: inherit;
-    border: 5px solid black
+    border: 5px solid black;
 }
 
 #poem {
@@ -144,7 +144,7 @@ form::before {
 #meme {
     width: 60%; /* adjust this value as needed */
     height: 15%;
-    align: center;
+    text-align: center;
     
 }
 
