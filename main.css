@@ -123,6 +123,12 @@ form::before {
 #poem {
     width: 70%;
     padding: 30px;
+    border-radius: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    background-image: url('./images/fire.gif');
+    background-size: cover;
     margin: auto;
     
     border-radius: 50px;
@@ -136,7 +142,7 @@ form::before {
 }
 
 #meme {
-    width: 40%; /* adjust this value as needed */
+    width: 60%; /* adjust this value as needed */
     height: 15%;
     align: center;
     
