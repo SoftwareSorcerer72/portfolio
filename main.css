@@ -26,9 +26,11 @@ nav ul {
     padding-top: .1%;
 }
 
-nav li{
+
+nav li {
     display: inline;
     margin: 10px;
+    
 
 }
 
@@ -49,7 +51,7 @@ main {
 #main-articles {
     width: 70%;
     background-color: #09323f;
-    border: 1px solid rgb(90, 35, 73);
+    border: 0.5px solid rgb(90, 35, 73);
     border-radius: 20px;
     margin: 10px;
     padding: 20px;
