@@ -20,11 +20,13 @@ nav {
 nav a{
     color: rgb(211, 119, 230);
     text-decoration: none;
+    
 }
 
 nav ul {
     list-style-type: none;
-    padding-top: .1%;
+    padding-top: 1%;
+    padding-left: 2%;
 }
 
 
